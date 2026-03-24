@@ -1,0 +1,8 @@
+mkdir: makes a directory 
+ls: list
+cd: change directory
+rmdir: removes empty directory
+-r: removes every file within a directory
+which: shows the path of the program
+
+
