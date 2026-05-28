@@ -1,0 +1,7 @@
+Extend program to have 2 separate modes, encryption, and decription
+
+Encryption:
+./caesar encrypt <file to encrypt> <caesar offset> <out file>
+
+Decryption:
+./caesar decrypt <file to decrypt> <caesar offset> <out file>
