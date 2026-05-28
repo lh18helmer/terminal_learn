@@ -1,16 +1,20 @@
 
 #include <stdio.h>
 
-int main() {
 
-    printf("hello world");
-    
-    char name[12] = "Logan Helmer";
-    int array[6] = {1, 4, 6, 67, 34, 78};
 
-    int array[] = "Logan Helmer";
 
-    printf("%s", name);
+int main(int argc, char ** argv) {
 
-    return 0;
+    if (argc < 2) {
+
+        fprintf(stderr, "usage: ./casar filename offest.\n");
+
+        return 1; 
+    }
+
+
+
+
 }
+
